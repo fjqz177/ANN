@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(./include)
 
-add_definitions("-g -w")
+add_definitions("-g -w -O3")
 
 aux_source_directory(./src SRC_LIST)
 
