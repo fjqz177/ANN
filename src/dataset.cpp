@@ -1,4 +1,5 @@
 #include "dataset.hpp"
+#include <cstdint>
 
 DataSet::DataSet()
 {
